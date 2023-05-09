@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "telegraf": "^4.12.2"
+  },
+  "name": "general-store-folder",
+  "version": "1.0.0",
+  "main": "bot4.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
