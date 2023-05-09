@@ -1,6 +1,5 @@
 const { Telegraf } = require('telegraf');
-const token = '6236812076:AAEEcC_1Pa1SkF0IvJn_qD1xXOf3_OEawLU';
-const bot = new Telegraf(token);
+const bot = new Telegraf(process.env.TOKEN);
 const groupId = -941162935;
 let purchasedItems = [];
 let orderAccepted = false;
